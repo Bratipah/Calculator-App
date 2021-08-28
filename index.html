@@ -5,26 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Calculator app</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
   <!-- Start of Calculator whole grid -->
-  <secion class="calculator-grid">
-    <!-- start of display screen area -->
-    <div class="display-area">
-      <div class="previous-operand"></div>
-      <div class="current-operand"></div>
+  <div class="container">
+    <h1>Calc</h1>
+    <div class="result">
+      <div id="history">
+        <p id="history-value"></p>
+      </div>
+      <div id="output">
+        <p id="output-value"></p>
+      </div>
     </div>
-       <!-- end  of display screen area -->
-
-  </secion>
+  </div>
   <!-- End of Calculator whole grid -->
   
 
